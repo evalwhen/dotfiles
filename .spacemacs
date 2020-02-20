@@ -31,10 +31,8 @@ values."
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
    '(
-     epub
      nginx
      graphviz
-     elixir
      ;; nlinum
      lsp
      ;; debug
@@ -67,7 +65,6 @@ values."
      javascript
      markdown
      yaml
-     php
      html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.

@@ -108,9 +108,9 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias hpoxy="https_proxy=http://localhost:8123 "
 alias hspoxy="http_proxy=http://localhost:8123 "
-export http_proxy=http://localhost:8123
-export https_proxy=http://localhost:8123
-export no_proxy=172.17.8.101,localhost,127.0.0.1
+# export http_proxy=http://localhost:8123
+# export https_proxy=http://localhost:8123
+# export no_proxy=172.17.8.101,localhost,127.0.0.1
 alias go='https_proxy=http://localhost:8123 go'
 alias air='~/.air'
 export PATH="$HOME/.rbenv/bin:$PATH"
