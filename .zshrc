@@ -106,12 +106,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
-alias hpoxy="https_proxy=http://localhost:8123 "
-alias hspoxy="http_proxy=http://localhost:8123 "
-# export http_proxy=http://localhost:8123
-# export https_proxy=http://localhost:8123
+alias hpoxy="https_proxy=http://127.0.0.1:7890"
+alias hspoxy="http_proxy=http://127.0.0.1:7890"
+# export http_proxy=http://127.0.0.1:7890
+# export http_proxy=http://127.0.0.1:7890
 # export no_proxy=172.17.8.101,localhost,127.0.0.1
-alias go='https_proxy=http://localhost:8123 go'
+alias go='https_proxy=http://127.0.0.1:7890 go'
 alias air='~/.air'
 export PATH="$HOME/.rbenv/bin:$PATH"
 # default editor
@@ -119,7 +119,7 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 export PATH="$HOME/.roswell/bin:$PATH"
 export GO111MODULE=on
-export GOPATH=$HOME/go
+# export GOPATH=$HOME/go
 export PATH=$PATH:$(go env GOPATH)/bin
 
 # java
